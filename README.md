@@ -1,6 +1,6 @@
 # 📊 Retail Demand Forecasting & Inventory Optimization (M5 Walmart Dataset)
 
-An end-to-end retail analytics project that forecasts item-level weekly demand, translates those forecasts into optimal inventory decisions using Economic Order Quantity (EOQ), and surfaces everything through an interactive Power BI dashboard and a Streamlit lookup app.
+An end-to-end retail analytics project that forecasts item-level weekly demand, translates those forecasts into optimal inventory decisions using Economic Order Quantity (EOQ), and surfaces everything through an interactive Power BI dashboard.
 
 ---
 
@@ -21,19 +21,17 @@ Weekly aggregation (per item, per store)
         ├────────────────────────────┐
         ▼                            ▼
 EOQ / inventory calculation     Forecast accuracy evaluation
-        │                            │
-        ▼                            ▼
-   Power BI dashboard  +  Streamlit item/store lookup app
-```
+        │                            
+        ▼                            
+   Power BI dashboard  
 
----
 
 ## 🎯 Objectives
 
 - Aggregate noisy daily sales into stable weekly demand signals
 - Forecast demand for every item, 4 weeks ahead
 - Feed forecasts into an EOQ model to recommend order quantities
-- Classify items by sales contribution (ABC/Pareto) and demand pattern (regular vs intermittent)
+- Classify items by sales contribution and demand pattern 
 - Turn all of the above into business-usable insights, not just model metrics
 
 ---

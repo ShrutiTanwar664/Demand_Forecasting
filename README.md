@@ -8,22 +8,27 @@ An end-to-end retail analytics project that forecasts item-level weekly demand, 
 
 Retailers lose money two ways: **stockouts** (lost sales, unhappy customers) and **overstock** (wasted holding cost, markdowns). This project builds a pipeline that helps avoid both — using Walmart's M5 sales data to forecast short-term demand per item, then using those forecasts to calculate how much and how often each item should be reordered.
 
-**Pipeline at a glance:**
 
-1.Daily M5 sales data
-        │
-        ▼
-2.Weekly aggregation (per item, per store)
-        │
-        ▼
-3.4-week ahead demand forecasting (per item)
-        │
-        ├────────────────────────────┐
-        ▼                            ▼
-5.EOQ / inventory calculation     Forecast accuracy evaluation
-        │                            
-        ▼                            
-   6.Power BI dashboard  
+
+## 🔁 Pipeline
+
+
+Daily M5 sales data
+       │
+       ▼
+Weekly aggregation (per item, per store)
+       │
+       ▼
+4-week ahead demand forecasting (per item)      
+       │
+       ▼
+EOQ / inventory calculation
+       │
+       ▼
+Power BI dashboard 
+       │
+       ▼
+ Visualization        
 
 
 ## 🎯 Objectives

@@ -10,20 +10,20 @@ Retailers lose money two ways: **stockouts** (lost sales, unhappy customers) and
 
 **Pipeline at a glance:**
 
-Daily M5 sales data
+1.Daily M5 sales data
         │
         ▼
-Weekly aggregation (per item, per store)
+2.Weekly aggregation (per item, per store)
         │
         ▼
-4-week ahead demand forecasting (per item)
+3.4-week ahead demand forecasting (per item)
         │
         ├────────────────────────────┐
         ▼                            ▼
-EOQ / inventory calculation     Forecast accuracy evaluation
+5.EOQ / inventory calculation     Forecast accuracy evaluation
         │                            
         ▼                            
-   Power BI dashboard  
+   6.Power BI dashboard  
 
 
 ## 🎯 Objectives
